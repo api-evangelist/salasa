@@ -1,7 +1,25 @@
 aid: salasa
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/salasa.png
 name: Salasa
-description: Salasa is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Salasa is an end-to-end eCommerce logistics provider based in Saudi Arabia,
+  offering 3PL fulfillment (warehouse storage, automated pick/pack/ship), hyperlocal
+  dark stores with 2-hour delivery in Riyadh, domestic on-demand and scheduled shipping,
+  cross-border shipping with customs clearance, and reverse logistics / return management.
+  Its Operations Management System (OMS) provides real-time tracking, inventory management,
+  and analytics, and it connects to major eCommerce platforms (Salla, Zid, Shopify,
+  WooCommerce, Magento, Amazon, Trendyol) and offers custom API integrations for merchants
+  automating fulfillment and order synchronization.
 url: https://raw.githubusercontent.com/api-evangelist/salasa/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Logistics
+- Fulfillment
+- eCommerce
+- Shipping
+- Supply Chain
+- Saudi Arabia
+- Warehousing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,22 @@ maintainers:
 common:
 - type: Website
   url: https://salasa.co
+- type: Blog
+  url: https://salasa.co/blog/
+- type: Support
+  url: https://salasa.co/contact-us/
+- type: Integrations
+  url: https://salasa.co/integrations/
+- type: TermsOfService
+  url: https://salasa.co/terms-conditions/
+- type: PrivacyPolicy
+  url: https://salasa.co/privacy-policy/
+- type: LLMsTxt
+  url: llms/salasa-llms.txt
+- type: DomainSecurity
+  url: security/salasa-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
