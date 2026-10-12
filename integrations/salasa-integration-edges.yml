@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/salasa/integrations
+- https://n8n.io/integrations/salasa/
+- https://composio.dev/toolkits/salasa
+- https://monid.ai/tools/salasa
+checked:
+- https://composio.dev/toolkits/salasa
+- https://monid.ai/tools/salasa
+- https://n8n.io/integrations/salasa/
+- https://zapier.com/apps/salasa/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
